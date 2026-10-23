@@ -1,0 +1,18 @@
+Ejercicio 2 — Identificar los tipos de datos 
+
+Observa este JSON: 
+{
+    "nombre": "Carlos", 
+    "edad": 30, 
+    "esEstudiante": false, 
+    "telefono": null  
+} 
+
+Indica qué tipo de dato corresponde a cada valor: 
+
+1. "Carlos" → String 
+2. 30 → Integer (number)
+3. false → Boolean
+4. null → Null
+
+Objetivo: distinguir String, Number, Boolean y Null.

@@ -1,0 +1,14 @@
+Ejercicio 4 — Detectar errores 
+
+
+El siguiente JSON contiene varios errores: 
+{ 
+    "nombre": "Laura" //falta la ,
+    "edad": 22, 
+    "activo": verdadero, //el valor del booleano debe ser true
+    "ciudad": "Valencia", //sobra la ,
+} 
+
+Encuentra y corrige todos los errores para que sea un JSON válido. 
+
+Objetivo: practicar la sintaxis básica de JSON.

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?> <!--Declaración del fichero XML-->
+<pedidos> <!--Elemento raíz-->
+
+    <pedido id="PE01">
+        <fecha>2023-10-01</fecha>
+
+        <datos_cliente>
+            <nombre>Ana Martinez</nombre>
+            <email>ana.martinez@email.com</email>
+            <telefono>123456789</telefono>
+        </datos_cliente>
+
+        <direccion_envio>Calle Principal, 123</direccion_envio>
+
+        <lista_productos>
+
+            <producto id="PR01">
+                <nombre>Teclado mecánico</nombre>
+                <cantidad>1</cantidad>
+                <precio_unitario>50.00</precio_unitario>
+            </producto>
+
+            <producto id="PR02">
+                <nombre>Ratón óptico</nombre>
+                <cantidad>2</cantidad>
+                <precio_unitario>25.00</precio_unitario>
+            </producto>
+
+        </lista_productos>
+        <total>100.00</total>
+    </pedido>
+
+   <pedido id="PE02">
+        <fecha>2023-10-02</fecha>
+
+        <datos_cliente>
+            <nombre>Beto García</nombre>
+            <email>beto.garcia@email.com</email>
+            <telefono>987654321</telefono>
+        </datos_cliente>
+
+        <direccion_envio>Avenida Principal, 456</direccion_envio>
+
+        <lista_productos>
+
+            <producto id="PR03">
+                <nombre>Monitor</nombre>
+                <cantidad>1</cantidad>
+                <precio_unitario>150.00</precio_unitario>
+            </producto>
+
+            <producto id="PR04">
+                <nombre>Webcam</nombre>
+                <cantidad>1</cantidad>
+                <precio_unitario>30.00</precio_unitario>
+            </producto>
+
+        </lista_productos>
+        <total>180.00</total>
+    </pedido>
+
+    <pedido id="PE03">
+        <fecha>2023-10-03</fecha>
+
+        <datos_cliente>
+            <nombre>Carmen López</nombre>
+            <email>carmen.lopez@email.com</email>
+            <telefono>555555555</telefono>
+        </datos_cliente>
+
+        <direccion_envio>Plaza Principal, 789</direccion_envio>
+
+        <lista_productos>
+
+            <producto id="PR04">
+                <nombre>Webcam</nombre>
+                <cantidad>1</cantidad>
+                <precio_unitario>30.00</precio_unitario>
+            </producto>
+
+            <producto id="PR02">
+                <nombre>Ratón óptico</nombre>
+                <cantidad>2</cantidad>
+                <precio_unitario>25.00</precio_unitario>
+            </producto>
+
+        </lista_productos>
+        <total>80.00</total>
+    </pedido>
+</pedidos>

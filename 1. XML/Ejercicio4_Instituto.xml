@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?> <!-- Declaración del fichero XML-->
+<instituto> <!-- Elemento raíz-->
+
+    <alumnos> <!-- Elemento padre <alumnos> -->
+
+        <alumno id="AL01"> <!-- Elemento padre <alumno> -->
+            <nombre>Sofía</nombre> 
+            <apellidos>García López</apellidos> 
+            <edad>18</edad>
+            <curso>DAM 1º</curso>
+            <asignaturas>
+                <asignatura id="AS01"> <!-- Elemento padre <asignatura> -->
+                    <nombre>Programación</nombre>
+                    <nota>8.5</nota>
+                </asignatura>
+
+                <asignatura id="AS02">
+                    <nombre>Base de Datos</nombre>
+                    <nota>7.5</nota>
+                </asignatura>
+
+            </asignaturas>
+        </alumno>
+
+         <alumno id="AL02"> 
+            <nombre>Diego</nombre> 
+            <apellidos>Mendoza Ruiz</apellidos> 
+            <edad>19</edad>
+            <curso>DAM 1º</curso>
+            <asignaturas>
+                <asignatura id="AS03">
+                    <nombre>Lenguaje de Marcas</nombre>
+                    <nota>8.0</nota>
+                </asignatura>
+
+                <asignatura id="AS04">
+                    <nombre>Sistemas Informáticos</nombre>
+                    <nota>7.0</nota>
+                </asignatura>
+
+            </asignaturas>
+        </alumno>
+
+        <alumno id="AL03"> 
+            <nombre>Juan</nombre> 
+            <apellidos>Pérez</apellidos> 
+            <edad>20</edad>
+            <curso>DAM 1º</curso>
+            <asignaturas>
+                <asignatura id="AS02">
+                    <nombre>Base de Datos</nombre>
+                    <nota>7.5</nota>
+                </asignatura>
+
+                <asignatura id="AS04">
+                    <nombre>Sistemas Informáticos</nombre>
+                    <nota>7.0</nota>
+                </asignatura>
+
+            </asignaturas>
+        </alumno>
+
+        <alumno id="AL04"> 
+            <nombre>María</nombre> 
+            <apellidos>Jiménez</apellidos> 
+            <edad>18</edad>
+            <curso>DAM 1º</curso>
+            <asignaturas>
+                <asignatura id="AS01">
+                    <nombre>Programación</nombre>
+                    <nota>8.5</nota>
+                </asignatura>
+
+                <asignatura id="AS04">
+                    <nombre>Sistemas Informáticos</nombre>
+                    <nota>7.0</nota>
+                </asignatura>
+
+            </asignaturas>
+        </alumno>
+
+    </alumnos>
+
+    <profesores> <!-- Elemento padre <profesores> -->
+ 
+        <profesor id="PF01"> <!-- Elemento padre <profesores> -->
+            <nombre>Maria Gonzalez</nombre>
+        </profesor>
+
+        <profesor id="PF02">
+            <nombre>Carlos Ruiz</nombre>
+        </profesor>
+
+        <profesor id="PF03">
+            <nombre>Juan Martínez</nombre>
+        </profesor>
+
+    </profesores>
+
+    <asignaturas> <!-- Elemento padre <asignaturas> -->
+
+        <asignatura id="AS01"> <!-- Elemento padre <asignatura> -->
+            <nombre>Programación</nombre>
+        </asignatura>
+
+        <asignatura id="AS02"> 
+            <nombre>Base de Datos</nombre>
+        </asignatura>
+
+        <asignatura id="AS03"> 
+            <nombre>Lenguaje de Marcas</nombre>
+        </asignatura>   
+
+        <asignatura id="AS04"> 
+            <nombre>Sistemas Informáticos</nombre>
+        </asignatura>   
+
+    </asignaturas>
+
+</instituto>

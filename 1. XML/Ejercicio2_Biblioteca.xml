@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca>
+    <libro>
+        <titulo>El Quijote</titulo>
+        <autor>Miguel de Cervantes</autor>
+        <publicacion>1605</publicacion>
+        <genero>Novela</genero>
+        <ISBN>978-84-670-4527-5</ISBN>
+    </libro>
+    <libro>
+        <titulo>Cien Años de Soledad</titulo>
+        <autor>Gabriel García Márquez</autor>
+        <publicacion>1967</publicacion>
+        <genero>Realismo mágico</genero>
+        <ISBN>978-84-376-0494-7</ISBN>
+    </libro>
+    <libro>
+        <titulo>La Sombra del Viento</titulo>
+        <autor>Carlos Ruiz Zafón</autor>
+        <publicacion>2001</publicacion>
+        <genero>Ficción</genero>
+        <ISBN>978-84-08-04391-8</ISBN>
+    </libro>
+    <libro>
+        <titulo>Don Juan Tenorio</titulo>
+        <autor>José Zorrilla</autor>
+        <publicacion>1844</publicacion>
+        <genero>Drama</genero>
+        <ISBN>978-84-670-2217-8</ISBN>
+    </libro>
+    <libro>
+        <titulo>La Casa de los Espíritus</titulo>
+        <autor>Isabel Allende</autor>
+        <publicacion>1982</publicacion>
+        <genero>Realismo mágico</genero>
+        <ISBN>978-84-322-5085-4</ISBN>
+    </libro>
+</biblioteca>

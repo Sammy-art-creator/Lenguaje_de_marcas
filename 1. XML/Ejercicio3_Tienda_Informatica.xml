@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tienda> <!-- Elemento raíz-->
+
+    <producto id="P01"> <!-- Elemento padre -->
+        <nombre>Portátil HP Pavilion</nombre>
+        <marca>HP</marca>
+        <precio>799.99</precio>
+        <stock>15</stock>
+        <categoria>Portátiles</categoria>
+    </producto>
+
+    <producto id="P02"> <!-- Elemento padre -->
+        <nombre>Monitor Samsung 24"</nombre>
+        <precio>149.99</precio>
+        <descripcion>Monitor LED de 24 pulgadas con resolución Full HD.</descripcion>
+        <categoria>Monitores</categoria>
+    </producto>
+
+    <producto id="P03"> <!-- Elemento padre -->
+        <nombre>Teclado Mecánico Logitech</nombre>
+        <precio>89.99</precio>
+        <descripcion>Teclado mecánico con retroiluminación RGB y switches táctiles.</descripcion>
+        <categoria>Periféricos</categoria>
+    </producto>
+
+    <producto id="P04"> <!-- Elemento padre -->
+        <nombre>Ratón Inalámbrico Logitech MX Master 3</nombre>
+        <precio>99.99</precio>
+        <descripcion>Ratón inalámbrico ergonómico con alta precisión y batería de larga duración.</descripcion>
+        <categoria>Periféricos</categoria>
+    </producto>
+    
+    <producto id="P05">
+        <nombre>Disco Duro Externo Seagate 2TB</nombre>
+        <precio>79.99</precio>
+        <descripcion>Disco duro externo portátil con capacidad de 2TB y conexión USB 3.0.</descripcion>
+        <categoria>Almacenamiento</categoria>
+    </producto>
+
+</tienda>

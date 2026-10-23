@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<gimnasio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="Ejercicio7_Gimnasio.xsd"> <!-- Elemento raíz de un documento XML que lo vincula con un esquema XSD para poder validarlo-->
+
+    <rutina id="RUT001">
+        <nombre>Rutina de fuerza</nombre>
+        <nivel>Intermedio</nivel>
+
+        <ejercicios>
+            <ejercicio>
+                <nombre>Press banca</nombre>
+                <series>6</series>
+                <repeticiones>10</repeticiones>
+            </ejercicio>
+
+            <ejercicio>
+                <nombre>Sentadilla</nombre>
+                <series>4</series>
+                <repeticiones>8</repeticiones>
+            </ejercicio>
+
+            <ejercicio>
+                <nombre>Remo con barra</nombre>
+                <series>3</series>
+                <repeticiones>10</repeticiones>
+            </ejercicio>
+        </ejercicios>
+
+    </rutina>
+
+
+    <rutina id="RUT002">
+        <nombre>Rutina de iniciación</nombre>
+        <nivel>Principiante</nivel>
+
+        <ejercicios>
+            <ejercicio>
+                <nombre>Press militar</nombre>
+                <series>3</series>
+                <repeticiones>12</repeticiones>
+            </ejercicio>
+
+            <ejercicio>
+                <nombre>Prensa de piernas</nombre>
+                <series>3</series>
+                <repeticiones>12</repeticiones>
+            </ejercicio>
+
+             <ejercicio>
+                <nombre>Prensa de piernas</nombre>
+                <series>3</series>
+                <repeticiones>12</repeticiones>
+            </ejercicio>
+
+        </ejercicios>
+
+    </rutina>
+
+    <rutina id="RUT003">
+        <nombre>Rutina de iniciación</nombre>
+        <nivel>Principiante</nivel>
+
+        <ejercicios>
+            <ejercicio>
+                <nombre>Press militar</nombre>
+                <series>3</series>
+                <repeticiones>12</repeticiones>
+            </ejercicio>
+
+            <ejercicio>
+                <nombre>Prensa de piernas</nombre>
+                <series>3</series>
+                <repeticiones>12</repeticiones>
+            </ejercicio>
+        </ejercicios>
+
+    </rutina>
+
+</gimnasio>

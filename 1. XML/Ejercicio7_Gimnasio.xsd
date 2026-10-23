@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- Elemento raíz -->
+    <xs:element name="gimnasio">
+
+        <xs:complexType>
+            <xs:sequence>
+
+                <!-- Una o varias rutinas -->
+                <xs:element name="rutina" maxOccurs="unbounded">
+
+                    <xs:complexType>
+                        <xs:sequence>
+
+                            <!-- Nombre de la rutina -->
+                            <xs:element name="nombre" type="xs:string" />
+
+                            <!-- Nivel de la rutina -->
+                            <xs:element name="nivel" type="xs:string" />
+
+                            <!-- Lista de ejercicios -->
+                            <xs:element name="ejercicios">
+
+                                <xs:complexType>
+                                    <xs:sequence>
+
+                                        <!-- Uno o varios ejercicios -->
+                                        <xs:element name="ejercicio" maxOccurs="unbounded">
+
+                                            <xs:complexType>
+                                                <xs:sequence>
+
+                                                    <!-- Nombre del ejercicio -->
+                                                    <xs:element name="nombre" type="xs:string" />
+
+                                                    <!-- Número de series -->
+                                                    <xs:element name="series" type="xs:integer" />
+
+                                                    <!-- Número de repeticiones -->
+                                                    <xs:element name="repeticiones"
+                                                        type="xs:integer" />
+
+                                                </xs:sequence>
+                                            </xs:complexType>
+
+                                        </xs:element>
+
+                                    </xs:sequence>
+                                </xs:complexType>
+
+                            </xs:element>
+
+                        </xs:sequence>
+
+                        <!-- Atributo obligatorio de la rutina -->
+                        <xs:attribute name="id"
+                            type="xs:string"
+                            use="required" />
+
+                    </xs:complexType>
+
+                </xs:element>
+
+            </xs:sequence>
+        </xs:complexType>
+
+    </xs:element>
+
+</xs:schema>
+ 

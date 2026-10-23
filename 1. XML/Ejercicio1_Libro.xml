@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<libro> <!-- Elemento raíz -->
+    <titulo>El Principito</titulo> <!-- Elemento hijo -->
+    <autor>Antoine de Saint-Exupéry</autor> <!-- Elemento hijo -->
+    <publicacion>1943</publicacion> <!-- Elemento hijo -->
+    <genero>Ficción</genero> <!-- Elemento hijo -->
+</libro>

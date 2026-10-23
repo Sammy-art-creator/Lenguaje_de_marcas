@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?> <!--Declaracion del documento XML-->
+
+<tienda_online> <!--Elemento raiz-->
+
+    <informacion_general> <!--Elemento de primer nivel-->
+
+        <nombre>TecnoShop Valencia</nombre>
+        <CIF>B12345678</CIF>
+        <email>info@tecnoshopvalencia.com</email>
+        <telefono>963456789</telefono>
+        <direccion>Calle Colón 25, Valencia</direccion>
+
+    </informacion_general>
+
+    <catalogo_productos> <!--Elemento de primer nivel-->
+
+        <producto id="PR01">
+            <nombre>MacBook Air M3</nombre>
+            <categoria>Ordenadores</categoria>
+            <precio>1199.00</precio>
+            <stock>15</stock>
+            <status>Activo</status>
+        </producto>
+
+        <producto id="PR02">
+            <nombre>Teclado Logitech MX Keys</nombre>
+            <categoria>Accesorios</categoria>
+            <precio>89.99</precio>
+            <stock>30</stock>
+            <status>Activo</status>
+        </producto>
+
+        <producto id="PR03">
+            <nombre>Monitor Samsung 27</nombre>
+            <categoria>Monitores</categoria>
+            <precio>249.99</precio>
+            <stock>12</stock>
+            <status>Activo</status>
+        </producto>
+
+        <producto id="PR04">
+            <nombre>Ratón Logitech MX Master 3S</nombre>
+            <categoria>Accesorios</categoria>
+            <precio>109.99</precio>
+            <stock>20</stock>
+            <status>Activo</status>
+        </producto>
+
+        <producto id="PR05">
+            <nombre>Auriculares Sony WH-1000XM5</nombre>
+            <categoria>Audio</categoria>
+            <precio>349.99</precio>
+            <stock>8</stock>
+            <status>Activo</status>
+        </producto>
+
+    </catalogo_productos>
+
+    <clientes> <!--Elemento de primer nivel-->
+
+        <cliente id="CL01">
+            <nombre>Laura</nombre>
+            <apellidos>García López</apellidos>
+            <email>laura.garcia@email.com</email>
+            <telefono>612345678</telefono>
+            <direccion>Calle Xàtiva 10, Valencia</direccion>
+        </cliente>
+
+        <cliente id="CL02">
+            <nombre>Carlos</nombre>
+            <apellidos>Martínez Pérez</apellidos>
+            <email>carlos.martinez@email.com</email>
+            <telefono>623456789</telefono>
+            <direccion>Avenida del Puerto 45, Valencia</direccion>
+        </cliente>
+
+        <cliente id="CL03">
+            <nombre>Sofía</nombre>
+            <apellidos>Rodríguez Sánchez</apellidos>
+            <email>sofia.rodriguez@email.com</email>
+            <telefono>634567890</telefono>
+            <direccion>Calle San Vicente 32, Valencia</direccion>
+        </cliente>
+
+        <cliente id="CL04">
+            <nombre>Daniel</nombre>
+            <apellidos>Fernández Torres</apellidos>
+            <email>daniel.fernandez@email.com</email>
+            <telefono>645678901</telefono>
+            <direccion>Calle Colón 78, Valencia</direccion>
+        </cliente>
+
+    </clientes>
+
+    <pedidos> <!--Elemento de primer nivel-->
+
+        <pedido id="PE01">
+            <fecha>2026-09-10</fecha>
+            <cliente>CL01</cliente>
+            <direccion>Calle Xàtiva 10, Valencia</direccion>
+            <lista_productos>
+
+                <producto id="PR01">
+                    <cantidad>1</cantidad>
+                    <precio_unitario>1199.00</precio_unitario>
+                </producto>
+
+                <producto id="PR02">
+                    <cantidad>2</cantidad>
+                    <precio_unitario>89.99</precio_unitario>
+                </producto>
+
+            </lista_productos>
+            <total>1378.98</total>
+            <status>Entregado</status>
+
+        </pedido>
+
+        <pedido id="PE02">
+            <fecha>2026-09-12</fecha>
+            <cliente>CL02</cliente>
+            <direccion>Avenida del Puerto 45, Valencia</direccion>
+            <lista_productos>
+
+                <producto id="PR03">
+                    <cantidad>1</cantidad>
+                    <precio_unitario>249.99</precio_unitario>
+                </producto>
+
+                <producto id="PR02">
+                    <cantidad>1</cantidad>
+                    <precio_unitario>89.99</precio_unitario>
+                </producto>
+
+            </lista_productos>
+            <total>339.98</total>
+            <status>Enviado</status>
+
+        </pedido>
+
+        <pedido id="PE03">
+            <fecha>2026-09-14</fecha>
+            <cliente>CL03</cliente>
+            <direccion>Calle San Vicente 32, Valencia</direccion>
+            <lista_productos>
+
+                <producto id="PR02">
+                    <cantidad>1</cantidad>
+                    <precio_unitario>89.99</precio_unitario>
+                </producto>
+
+                <producto id="PR04">
+                    <cantidad>1</cantidad>
+                    <precio_unitario>109.99</precio_unitario>
+                </producto>
+
+            </lista_productos>
+            <total>199.98</total>
+            <status>Entregado</status>
+
+        </pedido>
+
+        <pedido id="PE04">
+            <fecha>2026-09-16</fecha>
+            <cliente>CL04</cliente>
+            <direccion>Calle Colón 78, Valencia</direccion>
+            <lista_productos>
+
+                <producto id="PR01">
+                    <cantidad>1</cantidad>
+                    <precio_unitario>1199.00</precio_unitario>
+                </producto>
+
+                <producto id="PR03">
+                    <cantidad>2</cantidad>
+                    <precio_unitario>249.99</precio_unitario>
+                </producto>
+
+            </lista_productos>
+            <total>1698.98</total>
+            <status>Procesando</status>
+
+        </pedido>
+
+        <pedido id="PE05">
+            <fecha>2026-09-18</fecha>
+            <cliente>CL01</cliente>
+            <direccion>Calle Xàtiva 10, Valencia</direccion>
+            <lista_productos>
+
+                <producto id="PR05">
+                    <cantidad>1</cantidad>
+                    <precio_unitario>349.99</precio_unitario>
+                </producto>
+
+                <producto id="PR04">
+                    <cantidad>1</cantidad>
+                    <precio_unitario>109.99</precio_unitario>
+                </producto>
+
+            </lista_productos>
+            <total>459.98</total>
+            <status>Pendiente</status>
+
+        </pedido>
+
+    </pedidos>
+
+</tienda_online>

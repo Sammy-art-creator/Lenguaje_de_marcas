@@ -1,0 +1,14 @@
+{
+  "tienda": {
+    "nombre": "Tienda Online",
+    "direccion": {
+      "calle": "Calle de la Paz 12",
+      "ciudad": "Valencia"
+    },
+    "productos": [
+      { "nombre": "Teclado mecánico", "precio": 59.9, "disponible": true },
+      { "nombre": "Monitor 24 pulgadas", "precio": 149.99, "disponible": true },
+      { "nombre": "Webcam HD", "precio": 45.0, "disponible": false }
+    ]
+  }
+}

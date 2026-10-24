@@ -1,0 +1,14 @@
+{
+  "nombre": "Juan Pérez",
+  "edad": 30,
+  "direccion": {
+    "calle": "Calle Falsa 123",
+    "ciudad": "Madrid",
+    "codigo_postal": "28080"
+  },
+  "vehiculo": {
+    "marca": "Toyota",
+    "modelo": "Corolla",
+    "matricula": "6789-POT"
+  }
+}

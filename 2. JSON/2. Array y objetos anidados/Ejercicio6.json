@@ -1,0 +1,10 @@
+{
+  "nombre": "Juan Pérez",
+  "apellidos": "Pérez García",
+  "edad": 30,
+  "aficiones": [
+    "fútbol",
+    "lectura",
+    "viajar"
+    ]
+}

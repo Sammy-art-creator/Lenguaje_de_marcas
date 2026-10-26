@@ -1,0 +1,22 @@
+{
+  "videojuegos": [
+    {
+      "titulo": "Fortnite",
+      "genero": "Battle Royale",
+      "precio": 0,
+      "multijugador": true
+    },
+    {
+      "titulo": "The Legend of Zelda: Breath of the Wild",
+      "genero": "Aventura",
+      "precio": 59.99,
+      "multijugador": false
+    },
+    {
+      "titulo": "FIFA 24",
+      "genero": "Deportes",
+      "precio": 69.99,
+      "multijugador": true
+    }
+  ]
+}

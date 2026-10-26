@@ -1,0 +1,30 @@
+{
+  "tienda": {
+    "productos": [
+      {
+        "nombre": "Teclado mecánico",
+        "precio": 59.9,
+        "categoria": "Informática",
+        "disponible": true
+      },
+      {
+        "nombre": "Auriculares Bluetooth",
+        "precio": 39.5,
+        "categoria": "Audio",
+        "disponible": true
+      },
+      {
+        "nombre": "Monitor 24 pulgadas",
+        "precio": 149.99,
+        "categoria": "Informática",
+        "disponible": true
+      },
+      {
+        "nombre": "Webcam HD",
+        "precio": 45.0,
+        "categoria": "Informática",
+        "disponible": false
+      }
+    ]
+  }
+}

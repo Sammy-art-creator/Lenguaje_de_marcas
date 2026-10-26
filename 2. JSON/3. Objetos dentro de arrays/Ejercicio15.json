@@ -1,0 +1,49 @@
+{
+  "pedidos": [
+    {
+      "numero": 1001,
+      "cliente": {
+        "nombre": "Laura Gómez",
+        "email": "laura.gomez@email.com",
+        "direccion": {
+          "calle": "Avenida del Puerto 45",
+          "ciudad": "Valencia",
+          "codigoPostal": "46023"
+        }
+      },
+      "producto": "Teclado mecánico",
+      "cantidad": 2,
+      "entregado": true
+    },
+    {
+      "numero": 1002,
+      "cliente": {
+        "nombre": "Miguel Torres",
+        "email": "miguel.torres@email.com",
+        "direccion": {
+          "calle": "Calle Mayor 8",
+          "ciudad": "Madrid",
+          "codigoPostal": "28013"
+        }
+      },
+      "producto": "Monitor 24 pulgadas",
+      "cantidad": 1,
+      "entregado": false
+    },
+    {
+      "numero": 1003,
+      "cliente": {
+        "nombre": "Sofía Navarro",
+        "email": "sofia.navarro@email.com",
+        "direccion": {
+          "calle": "Plaza Nueva 3",
+          "ciudad": "Sevilla",
+          "codigoPostal": "41001"
+        }
+      },
+      "producto": "Auriculares Bluetooth",
+      "cantidad": 3,
+      "entregado": true
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+    "alumnos": [
+      { "nombre": "Laura Pérez", "edad": 17, "aprobado": true },
+      { "nombre": "Diego Ruiz", "edad": 18, "aprobado": false },
+      { "nombre": "Sara Gil", "edad": 17, "aprobado": true },
+      { "nombre": "Pablo Marín", "edad": 19, "aprobado": true }
+    ]
+}

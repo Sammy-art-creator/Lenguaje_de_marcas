@@ -1,0 +1,7 @@
+{
+  "peliculas": [
+    { "titulo": "El Padrino", "director": "Francis Ford Coppola", "año": 1972 },
+    { "titulo": "Matrix", "director": "Lana y Lilly Wachowski", "año": 1999 },
+    { "titulo": "Parásitos", "director": "Bong Joon-ho", "año": 2019 }
+  ]
+}

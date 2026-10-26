@@ -1,0 +1,134 @@
+{
+  "status": 200,
+  "ok": true,
+  "meta": {
+    "pagina": 1,
+    "porPagina": 4,
+    "totalResultados": 48,
+    "enlaces": {
+      "anterior": null,
+      "siguiente": "https://api.streamflix.example/v1/series?pagina=2"
+    },
+    "generadoEn": "2026-10-09T14:30:00Z"
+  },
+  "data": [
+    {
+      "id": 1,
+      "titulo": "Horizonte Perdido",
+      "genero": ["ciencia ficción", "drama"],
+      "estreno": 2023,
+      "valoracion": { "media": 8.7, "votos": 15230 },
+      "reparto": [
+        {
+          "actor": "Elena Vidal",
+          "personaje": "Capitana Reyes",
+          "principal": true
+        },
+        { "actor": "Marcos Soto", "personaje": "Dr. Lund", "principal": false }
+      ],
+      "temporadas": [
+        {
+          "numero": 1,
+          "episodios": [
+            { "titulo": "Despegue", "duracionMin": 52 },
+            { "titulo": "Señal desconocida", "duracionMin": 48 }
+          ]
+        },
+        {
+          "numero": 2,
+          "episodios": [
+            { "titulo": "Regreso", "duracionMin": 55 },
+            { "titulo": "El otro lado", "duracionMin": 50 }
+          ]
+        }
+      ],
+      "disponibleEn": { "ES": true, "MX": true, "US": false },
+      "trailer": {
+        "url": "https://cdn.streamflix.example/trailers/1.mp4",
+        "duracionSeg": 95
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "La Cocina de Lola",
+      "genero": ["comedia"],
+      "estreno": 2021,
+      "valoracion": { "media": 7.4, "votos": 8120 },
+      "reparto": [
+        { "actor": "Lola Campos", "personaje": "Lola", "principal": true },
+        { "actor": "Raúl Pons", "personaje": "Chef Bruno", "principal": true }
+      ],
+      "temporadas": [
+        {
+          "numero": 1,
+          "episodios": [
+            { "titulo": "Primer servicio", "duracionMin": 28 },
+            { "titulo": "Sal de más", "duracionMin": 26 }
+          ]
+        }
+      ],
+      "disponibleEn": { "ES": true, "MX": false, "US": true },
+      "trailer": null
+    },
+    {
+      "id": 3,
+      "titulo": "Sombras en el Puerto",
+      "genero": ["thriller", "crimen", "misterio"],
+      "estreno": 2024,
+      "valoracion": { "media": 9.1, "votos": 22045 },
+      "reparto": [
+        {
+          "actor": "Álvaro Beltrán",
+          "personaje": "Inspector Mora",
+          "principal": true
+        },
+        {
+          "actor": "Nuria Ferrer",
+          "personaje": "Sofía Vega",
+          "principal": false
+        }
+      ],
+      "temporadas": [
+        {
+          "numero": 1,
+          "episodios": [
+            { "titulo": "Niebla", "duracionMin": 58 },
+            { "titulo": "El muelle siete", "duracionMin": 61 },
+            { "titulo": "Marea baja", "duracionMin": 57 }
+          ]
+        }
+      ],
+      "disponibleEn": { "ES": true, "MX": true, "US": true, "FR": false },
+      "trailer": {
+        "url": "https://cdn.streamflix.example/trailers/3.mp4",
+        "duracionSeg": 120
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "Mundos Diminutos",
+      "genero": ["documental", "naturaleza"],
+      "estreno": 2020,
+      "valoracion": { "media": 8.2, "votos": 5310 },
+      "reparto": [
+        {
+          "actor": "Gonzalo Ibáñez",
+          "personaje": "Narrador",
+          "principal": true
+        }
+      ],
+      "temporadas": [
+        {
+          "numero": 1,
+          "episodios": [
+            { "titulo": "Bajo la hojarasca", "duracionMin": 44 },
+            { "titulo": "Vida en una gota", "duracionMin": 43 }
+          ]
+        }
+      ],
+      "disponibleEn": { "ES": false, "MX": true, "US": true },
+      "trailer": null
+    }
+  ],
+  "errores": []
+}

@@ -1,0 +1,143 @@
+{
+  "nombre": "Clínica Salud Mediterránea",
+  "direccion": {
+    "calle": "Avenida del Puerto 45",
+    "ciudad": "Valencia",
+    "codigoPostal": "46023"
+  },
+  "configuracion": {
+    "horarioApertura": "08:00",
+    "horarioCierre": "20:00",
+    "duracionCitaMinutos": 30
+  },
+  "medicos": [
+    {
+      "id": 1,
+      "nombre": "Dra. Isabel Navarro",
+      "especialidad": "Medicina general",
+      "colegiado": "46/12345",
+      "consultas": ["lunes", "martes", "jueves"]
+    },
+    {
+      "id": 2,
+      "nombre": "Dr. Javier Romero",
+      "especialidad": "Cardiología",
+      "colegiado": "46/23456",
+      "consultas": ["miércoles", "viernes"]
+    },
+    {
+      "id": 3,
+      "nombre": "Dra. Paula Ferrer",
+      "especialidad": "Dermatología",
+      "colegiado": "46/34567",
+      "consultas": ["martes", "viernes"]
+    }
+  ],
+  "pacientes": [
+    {
+      "id": 1,
+      "nombre": "Rosa Martínez",
+      "fechaNacimiento": "1985-03-14",
+      "seguro": { "compania": "Sanitas", "numeroPoliza": "SAN-884412" },
+      "alergias": ["penicilina", "polen"],
+      "historial": [
+        {
+          "fecha": "2026-05-12",
+          "diagnostico": "Faringitis",
+          "tratamiento": {
+            "medicamento": "Ibuprofeno",
+            "dosis": "400 mg cada 8 horas",
+            "duracionDias": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Tomás Blasco",
+      "fechaNacimiento": "1962-11-02",
+      "seguro": { "compania": "Adeslas", "numeroPoliza": "ADE-775521" },
+      "alergias": [],
+      "historial": [
+        {
+          "fecha": "2026-02-20",
+          "diagnostico": "Hipertensión arterial",
+          "tratamiento": {
+            "medicamento": "Enalapril",
+            "dosis": "10 mg una vez al día",
+            "duracionDias": 90
+          }
+        },
+        {
+          "fecha": "2026-08-03",
+          "diagnostico": "Revisión cardiológica",
+          "tratamiento": {
+            "medicamento": "Atorvastatina",
+            "dosis": "20 mg por la noche",
+            "duracionDias": 60
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Clara Esteve",
+      "fechaNacimiento": "1999-07-30",
+      "seguro": null,
+      "alergias": ["látex"],
+      "historial": [
+        {
+          "fecha": "2026-09-15",
+          "diagnostico": "Dermatitis atópica",
+          "tratamiento": {
+            "medicamento": "Hidrocortisona crema 1%",
+            "dosis": "Aplicar dos veces al día",
+            "duracionDias": 14
+          }
+        }
+      ]
+    }
+  ],
+  "citas": [
+    {
+      "id": 1,
+      "pacienteId": 1,
+      "medicoId": 1,
+      "fecha": "2026-10-13T09:00:00",
+      "confirmada": true,
+      "notas": "Revisión anual"
+    },
+    {
+      "id": 2,
+      "pacienteId": 2,
+      "medicoId": 2,
+      "fecha": "2026-10-14T11:30:00",
+      "confirmada": true,
+      "notas": null
+    },
+    {
+      "id": 3,
+      "pacienteId": 3,
+      "medicoId": 3,
+      "fecha": "2026-10-16T10:00:00",
+      "confirmada": false,
+      "notas": "Traer informe anterior"
+    },
+    {
+      "id": 4,
+      "pacienteId": 2,
+      "medicoId": 1,
+      "fecha": "2026-10-15T12:00:00",
+      "confirmada": true,
+      "notas": null
+    },
+    {
+      "id": 5,
+      "pacienteId": 1,
+      "medicoId": 2,
+      "fecha": "2026-10-21T08:30:00",
+      "confirmada": false,
+      "notas": "Primera consulta de cardiología"
+    }
+  ]
+}

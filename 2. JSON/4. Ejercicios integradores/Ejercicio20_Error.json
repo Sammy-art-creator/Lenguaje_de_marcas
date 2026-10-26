@@ -1,0 +1,17 @@
+{
+  "status": 404,
+  "ok": false,
+  "data": null,
+  "errores": [
+    {
+      "codigo": "SERIE_NO_ENCONTRADA",
+      "mensaje": "No existe ninguna serie con el id indicado",
+      "campo": "id"
+    },
+    {
+      "codigo": "PAGINA_FUERA_DE_RANGO",
+      "mensaje": "La página solicitada supera el total de páginas disponibles",
+      "campo": "pagina"
+    }
+  ]
+}

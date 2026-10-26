@@ -1,0 +1,82 @@
+{
+  "nombre": "TecnoHogar",
+  "abierta": true,
+  "contacto": {
+    "telefono": "+34 960 123 456",
+    "email": "info@tecnohogar.es"
+  },
+  "categorias": [
+    {
+      "id": 1,
+      "nombre": "Informática",
+      "productos": [
+        {
+          "sku": "INF-001",
+          "nombre": "Portátil 15 pulgadas",
+          "precio": 749.99,
+          "stock": 12,
+          "etiquetas": ["portátil", "oferta", "trabajo"],
+          "dimensiones": { "alto": 2.0, "ancho": 36.0, "fondo": 24.5 },
+          "disponible": true
+        },
+        {
+          "sku": "INF-002",
+          "nombre": "Ratón inalámbrico",
+          "precio": 19.95,
+          "stock": 0,
+          "etiquetas": ["accesorio", "inalámbrico"],
+          "dimensiones": { "alto": 4.0, "ancho": 6.0, "fondo": 11.0 },
+          "disponible": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Hogar",
+      "productos": [
+        {
+          "sku": "HOG-001",
+          "nombre": "Aspirador robot",
+          "precio": 229.0,
+          "stock": 7,
+          "etiquetas": ["limpieza", "inteligente"],
+          "dimensiones": { "alto": 9.5, "ancho": 33.0, "fondo": 33.0 },
+          "disponible": true
+        },
+        {
+          "sku": "HOG-002",
+          "nombre": "Lámpara de escritorio LED",
+          "precio": 34.5,
+          "stock": 25,
+          "etiquetas": ["iluminación", "oficina", "ahorro"],
+          "dimensiones": { "alto": 45.0, "ancho": 15.0, "fondo": 15.0 },
+          "disponible": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Deporte",
+      "productos": [
+        {
+          "sku": "DEP-001",
+          "nombre": "Esterilla de yoga",
+          "precio": 24.9,
+          "stock": 40,
+          "etiquetas": ["yoga", "fitness"],
+          "dimensiones": { "alto": 0.6, "ancho": 61.0, "fondo": 183.0 },
+          "disponible": true
+        },
+        {
+          "sku": "DEP-002",
+          "nombre": "Pesas ajustables 20 kg",
+          "precio": 89.99,
+          "stock": 3,
+          "etiquetas": ["fuerza", "gimnasio", "últimas unidades"],
+          "dimensiones": { "alto": 20.0, "ancho": 40.0, "fondo": 20.0 },
+          "disponible": true
+        }
+      ]
+    }
+  ]
+}

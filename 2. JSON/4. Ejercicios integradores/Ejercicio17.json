@@ -1,0 +1,116 @@
+{
+  "nombre": "Academia Horizonte",
+  "fundacion": 2009,
+  "sede": {
+    "ciudad": "Valencia",
+    "pais": "España",
+    "coordenadas": { "lat": 39.4699, "lng": -0.3763 }
+  },
+  "cursos": [
+    {
+      "codigo": "PRG-101",
+      "titulo": "Programación con Python",
+      "profesor": {
+        "nombre": "Marta Soler",
+        "especialidades": ["Python", "Datos", "Automatización"],
+        "contacto": {
+          "email": "marta.soler@horizonte.es",
+          "telefono": "+34 600 111 222"
+        }
+      },
+      "horario": [
+        { "dia": "lunes", "inicio": "17:00", "fin": "19:00" },
+        { "dia": "miércoles", "inicio": "17:00", "fin": "19:00" }
+      ],
+      "alumnos": [
+        {
+          "nombre": "Laura Pérez",
+          "activo": true,
+          "notas": [8.5, 9.0, 7.5],
+          "notaFinal": 8.3
+        },
+        {
+          "nombre": "Diego Ruiz",
+          "activo": true,
+          "notas": [6.0, 5.5],
+          "notaFinal": null
+        },
+        {
+          "nombre": "Sara Gil",
+          "activo": false,
+          "notas": [4.0, 3.5, 5.0],
+          "notaFinal": 4.2
+        }
+      ]
+    },
+    {
+      "codigo": "WEB-201",
+      "titulo": "Desarrollo Web con JavaScript",
+      "profesor": {
+        "nombre": "Andrés Molina",
+        "especialidades": ["JavaScript", "React", "CSS"],
+        "contacto": {
+          "email": "andres.molina@horizonte.es",
+          "telefono": "+34 600 333 444"
+        }
+      },
+      "horario": [
+        { "dia": "martes", "inicio": "18:00", "fin": "20:30" },
+        { "dia": "jueves", "inicio": "18:00", "fin": "20:30" }
+      ],
+      "alumnos": [
+        {
+          "nombre": "Pablo Marín",
+          "activo": true,
+          "notas": [9.0, 9.5, 10.0],
+          "notaFinal": 9.5
+        },
+        {
+          "nombre": "Elena Vidal",
+          "activo": true,
+          "notas": [7.0, 7.5],
+          "notaFinal": null
+        },
+        {
+          "nombre": "Hugo Serra",
+          "activo": true,
+          "notas": [6.5, 7.0, 6.0],
+          "notaFinal": 6.5
+        }
+      ]
+    },
+    {
+      "codigo": "BD-150",
+      "titulo": "Bases de Datos SQL",
+      "profesor": {
+        "nombre": "Carmen Ortega",
+        "especialidades": ["SQL", "PostgreSQL"],
+        "contacto": {
+          "email": "carmen.ortega@horizonte.es",
+          "telefono": "+34 600 555 666"
+        }
+      },
+      "horario": [{ "dia": "viernes", "inicio": "16:00", "fin": "20:00" }],
+      "alumnos": [
+        {
+          "nombre": "Irene Castro",
+          "activo": true,
+          "notas": [8.0, 8.5],
+          "notaFinal": 8.3
+        },
+        {
+          "nombre": "Marcos Llopis",
+          "activo": false,
+          "notas": [],
+          "notaFinal": null
+        },
+        {
+          "nombre": "Noa Beltrán",
+          "activo": true,
+          "notas": [9.0, 9.0, 8.5],
+          "notaFinal": 8.8
+        }
+      ]
+    }
+  ]
+}

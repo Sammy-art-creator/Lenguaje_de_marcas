@@ -1,0 +1,105 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "usuario": "ana_dev",
+      "perfil": {
+        "bio": "Desarrolladora y amante del café",
+        "ubicacion": "Valencia",
+        "verificado": true
+      },
+      "siguiendo": [2, 3]
+    },
+    {
+      "id": 2,
+      "usuario": "carlos_foto",
+      "perfil": {
+        "bio": "Fotografía de calle",
+        "ubicacion": "Madrid",
+        "verificado": false
+      },
+      "siguiendo": [1]
+    },
+    {
+      "id": 3,
+      "usuario": "lucia_viaja",
+      "perfil": {
+        "bio": "Cuarenta países y subiendo",
+        "ubicacion": "Sevilla",
+        "verificado": true
+      },
+      "siguiendo": [1, 2]
+    }
+  ],
+  "publicaciones": [
+    {
+      "id": 101,
+      "autorId": 1,
+      "texto": "¡Por fin terminé mi primer proyecto con JSON!",
+      "fecha": "2026-10-09T14:30:00",
+      "reacciones": { "meGusta": 42, "risa": 3, "sorpresa": 5 },
+      "hashtags": ["json", "programación"]
+    },
+    {
+      "id": 102,
+      "autorId": 2,
+      "texto": "Atardecer en el Retiro",
+      "fecha": "2026-10-08T19:45:00",
+      "reacciones": { "meGusta": 120, "risa": 0, "sorpresa": 14 },
+      "hashtags": ["fotografía", "madrid", "atardecer"]
+    },
+    {
+      "id": 103,
+      "autorId": 3,
+      "texto": "Mañana salgo hacia Lisboa",
+      "fecha": "2026-10-07T09:10:00",
+      "reacciones": { "meGusta": 58, "risa": 1, "sorpresa": 2 },
+      "hashtags": []
+    },
+    {
+      "id": 104,
+      "autorId": 1,
+      "texto": "¿Tabs o espacios? Abro debate.",
+      "fecha": "2026-10-06T21:00:00",
+      "reacciones": { "meGusta": 15, "risa": 33, "sorpresa": 0 },
+      "hashtags": ["debate"]
+    }
+  ],
+  "comentarios": [
+    {
+      "id": 1001,
+      "publicacionId": 101,
+      "autorId": 2,
+      "texto": "¡Enhorabuena, Ana!",
+      "editado": false
+    },
+    {
+      "id": 1002,
+      "publicacionId": 101,
+      "autorId": 3,
+      "texto": "Pásame el código cuando puedas",
+      "editado": true
+    },
+    {
+      "id": 1003,
+      "publicacionId": 102,
+      "autorId": 1,
+      "texto": "Qué luz tan bonita",
+      "editado": false
+    },
+    {
+      "id": 1004,
+      "publicacionId": 103,
+      "autorId": 2,
+      "texto": "¡Buen viaje!",
+      "editado": false
+    },
+    {
+      "id": 1005,
+      "publicacionId": 104,
+      "autorId": 3,
+      "texto": "Espacios, sin duda",
+      "editado": true
+    }
+  ]
+}

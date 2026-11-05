@@ -1,134 +1,134 @@
 {
   "status": 200,
-  "ok": true,
-  "meta": {
-    "pagina": 1,
-    "porPagina": 4,
-    "totalResultados": 48,
-    "enlaces": {
-      "anterior": null,
-      "siguiente": "https://api.streamflix.example/v1/series?pagina=2"
+"ok": true,
+"meta": {
+"pagina": 1,
+"porPagina": 4,
+"totalResultados": 63,
+"enlaces": {
+"anterior": null,
+"siguiente": "https://api.streamflix.example/v1/series?pagina=2"
     },
-    "generadoEn": "2026-10-09T14:30:00Z"
+"generadoEn": "2026-11-05T09:15:00Z"
   },
-  "data": [
+"data": [
     {
-      "id": 1,
-      "titulo": "Horizonte Perdido",
-      "genero": ["ciencia ficción", "drama"],
-      "estreno": 2023,
-      "valoracion": { "media": 8.7, "votos": 15230 },
-      "reparto": [
+"id": 1,
+"titulo": "Ecos del Abismo",
+"genero": ["fantasía", "aventura"],
+"estreno": 2022,
+"valoracion": { "media": 8.4, "votos": 18760 },
+"reparto": [
         {
-          "actor": "Elena Vidal",
-          "personaje": "Capitana Reyes",
-          "principal": true
+"actor": "Clara Montoya",
+"personaje": "Reina Aldara",
+"principal": true
         },
-        { "actor": "Marcos Soto", "personaje": "Dr. Lund", "principal": false }
+        { "actor": "Iván Cortés", "personaje": "Mago Teren", "principal": false }
       ],
-      "temporadas": [
+"temporadas": [
         {
-          "numero": 1,
-          "episodios": [
-            { "titulo": "Despegue", "duracionMin": 52 },
-            { "titulo": "Señal desconocida", "duracionMin": 48 }
+"numero": 1,
+"episodios": [
+            { "titulo": "La grieta", "duracionMin": 54 },
+            { "titulo": "Voces bajo el hielo", "duracionMin": 49 }
           ]
         },
         {
-          "numero": 2,
-          "episodios": [
-            { "titulo": "Regreso", "duracionMin": 55 },
-            { "titulo": "El otro lado", "duracionMin": 50 }
+"numero": 2,
+"episodios": [
+            { "titulo": "El pacto roto", "duracionMin": 56 },
+            { "titulo": "Corona de ceniza", "duracionMin": 51 }
           ]
         }
       ],
-      "disponibleEn": { "ES": true, "MX": true, "US": false },
-      "trailer": {
-        "url": "https://cdn.streamflix.example/trailers/1.mp4",
-        "duracionSeg": 95
+"disponibleEn": { "ES": true, "MX": false, "US": true },
+"trailer": {
+"url": "https://cdn.streamflix.example/trailers/1.mp4",
+"duracionSeg": 110
       }
     },
     {
-      "id": 2,
-      "titulo": "La Cocina de Lola",
-      "genero": ["comedia"],
-      "estreno": 2021,
-      "valoracion": { "media": 7.4, "votos": 8120 },
-      "reparto": [
-        { "actor": "Lola Campos", "personaje": "Lola", "principal": true },
-        { "actor": "Raúl Pons", "personaje": "Chef Bruno", "principal": true }
+"id": 2,
+"titulo": "Casa de Huéspedes",
+"genero": ["comedia romántica"],
+"estreno": 2025,
+"valoracion": { "media": 7.8, "votos": 6540 },
+"reparto": [
+        { "actor": "Paula Navarro", "personaje": "Marta", "principal": true },
+        { "actor": "Diego Salas", "personaje": "Tomás", "principal": true }
       ],
-      "temporadas": [
+"temporadas": [
         {
-          "numero": 1,
-          "episodios": [
-            { "titulo": "Primer servicio", "duracionMin": 28 },
-            { "titulo": "Sal de más", "duracionMin": 26 }
+"numero": 1,
+"episodios": [
+            { "titulo": "Check-in", "duracionMin": 30 },
+            { "titulo": "Habitación doce", "duracionMin": 27 }
           ]
         }
       ],
-      "disponibleEn": { "ES": true, "MX": false, "US": true },
-      "trailer": null
+"disponibleEn": { "ES": true, "MX": true, "US": false },
+"trailer": null
     },
     {
-      "id": 3,
-      "titulo": "Sombras en el Puerto",
-      "genero": ["thriller", "crimen", "misterio"],
-      "estreno": 2024,
-      "valoracion": { "media": 9.1, "votos": 22045 },
-      "reparto": [
+"id": 3,
+"titulo": "Frecuencia Cero",
+"genero": ["suspense", "tecnología", "conspiración"],
+"estreno": 2023,
+"valoracion": { "media": 8.9, "votos": 27410 },
+"reparto": [
         {
-          "actor": "Álvaro Beltrán",
-          "personaje": "Inspector Mora",
-          "principal": true
+"actor": "Héctor Luque",
+"personaje": "Agente Ramos",
+"principal": true
         },
         {
-          "actor": "Nuria Ferrer",
-          "personaje": "Sofía Vega",
-          "principal": false
+"actor": "Irene Calvo",
+"personaje": "Dra. Ortega",
+"principal": false
         }
       ],
-      "temporadas": [
+"temporadas": [
         {
-          "numero": 1,
-          "episodios": [
-            { "titulo": "Niebla", "duracionMin": 58 },
-            { "titulo": "El muelle siete", "duracionMin": 61 },
-            { "titulo": "Marea baja", "duracionMin": 57 }
+"numero": 1,
+"episodios": [
+            { "titulo": "Interferencia", "duracionMin": 59 },
+            { "titulo": "Canal cifrado", "duracionMin": 62 },
+            { "titulo": "Apagón", "duracionMin": 56 }
           ]
         }
       ],
-      "disponibleEn": { "ES": true, "MX": true, "US": true, "FR": false },
-      "trailer": {
-        "url": "https://cdn.streamflix.example/trailers/3.mp4",
-        "duracionSeg": 120
+"disponibleEn": { "ES": true, "MX": false, "US": true, "FR": true },
+"trailer": {
+"url": "https://cdn.streamflix.example/trailers/3.mp4",
+"duracionSeg": 105
       }
     },
     {
-      "id": 4,
-      "titulo": "Mundos Diminutos",
-      "genero": ["documental", "naturaleza"],
-      "estreno": 2020,
-      "valoracion": { "media": 8.2, "votos": 5310 },
-      "reparto": [
+"id": 4,
+"titulo": "Océanos Profundos",
+"genero": ["documental", "ciencia"],
+"estreno": 2019,
+"valoracion": { "media": 8.0, "votos": 4780 },
+"reparto": [
         {
-          "actor": "Gonzalo Ibáñez",
-          "personaje": "Narrador",
-          "principal": true
+"actor": "Marina Quintero",
+"personaje": "Narradora",
+"principal": true
         }
       ],
-      "temporadas": [
+"temporadas": [
         {
-          "numero": 1,
-          "episodios": [
-            { "titulo": "Bajo la hojarasca", "duracionMin": 44 },
-            { "titulo": "Vida en una gota", "duracionMin": 43 }
+"numero": 1,
+"episodios": [
+            { "titulo": "Zona crepuscular", "duracionMin": 46 },
+            { "titulo": "Luz en la oscuridad", "duracionMin": 45 }
           ]
         }
       ],
-      "disponibleEn": { "ES": false, "MX": true, "US": true },
-      "trailer": null
+"disponibleEn": { "ES": true, "MX": true, "US": false },
+"trailer": null
     }
   ],
-  "errores": []
+"errores": []
 }

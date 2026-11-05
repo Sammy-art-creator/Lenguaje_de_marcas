@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Weather API</title>
+  </head>
+  <body>
+    <h1>Weather API</h1>
+    <nav>
+      <ul>
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#autenticacion">Autenticación</a></li>
+        <li><a href="#endpoint-usuario">Endpoint de usuario</a></li>
+        <li><a href="#endpoint-ciudades">Endpoint de ciudades</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <div id="introduction">
+      <h2>Introduction</h2>
+      <p>
+        WeatherAPI es una API ficticia diseñada para ofrecer información
+        meteorológica de forma sencilla y rápida a desarrolladores y
+        aplicaciones de terceros. A través de sus endpoints es posible consultar
+        el tiempo actual de distintas ciudades, obtener datos como la
+        temperatura, la humedad o el estado del cielo, y gestionar los usuarios
+        que tienen acceso al servicio.
+      </p>
+      <p>
+        Esta documentación explica paso a paso cómo autenticarse, qué peticiones
+        se pueden realizar y qué respuestas devuelve cada una, con el fin de que
+        cualquier persona pueda integrar la API en su proyecto sin necesidad de
+        conocimientos previos sobre el servicio. Se recomienda leerla en orden,
+        empezando por la autenticación.
+      </p>
+    </div>
+    <div id="autenticacion">
+      <h2>Autenticación</h2>
+      <p>
+        Para utilizar WeatherAPI es necesario identificarse en cada petición
+        mediante una clave de API personal. Esta clave se obtiene al registrarse
+        en el servicio y debe enviarse en la cabecera
+        <code>Authorization</code> de todas las solicitudes. Si la clave falta o
+        no es válida, la API responderá con un error 401 indicando que el acceso
+        no está autorizado.
+      </p>
+      <p>
+        Es importante mantener la clave en secreto y no compartirla ni
+        publicarla en repositorios públicos. Si sospechas que ha sido
+        comprometida, puedes generar una nueva desde tu panel de usuario, lo que
+        invalidará automáticamente la anterior. Consulta también nuestras buenas
+        prácticas de seguridad para proteger tu cuenta.
+      </p>
+    </div>
+    <div id="endpoint-usuario">
+      <h2>Endpoint de usuario</h2>
+      <p>
+        El endpoint de usuarios permite administrar las cuentas que utilizan la
+        API. Mediante él se puede consultar la lista completa de usuarios
+        registrados, así como dar de alta nuevos usuarios enviando sus datos
+        básicos, como el nombre y el correo electrónico, en el cuerpo de la
+        petición en formato JSON.
+      </p>
+      <p>
+        Devuelve un listado con todos los usuarios registrados. Cada elemento
+        incluye su identificador, nombre y fecha de alta. La respuesta correcta
+        se devuelve con el código 200.
+      </p>
+    </div>
+    <div id="endpoint-ciudades">
+      <h2>Endpoint de ciudades</h2>
+      <p>
+        El endpoint de ciudades es el núcleo del servicio, ya que da acceso a
+        los datos meteorológicos. Permite conocer qué ciudades están disponibles
+        en la plataforma y consultar el estado del tiempo de cualquiera de ellas
+        utilizando su identificador único, lo que facilita mostrar la
+        información en aplicaciones web o móviles.
+      </p>
+      <p>
+        Devuelve el listado de ciudades disponibles, cada una con su
+        identificador, nombre y país. Este listado sirve como punto de partida
+        para conocer los identificadores que después se usarán en el resto de
+        consultas.
+      </p>
+      <p>
+        Devuelve la información meteorológica actual de la ciudad indicada:
+        temperatura en grados Celsius, porcentaje de humedad, velocidad del
+        viento y estado general del cielo. Si el identificador no existe, la API
+        responde con un error 404.
+      </p>
+    </div>
+    <div id="contacto">
+      <h2>Contacto</h2>
+      <p>
+        Si tienes cualquier duda sobre el funcionamiento de WeatherAPI,
+        encuentras algún error en la documentación o quieres proponer una
+        mejora, nuestro equipo de soporte estará encantado de ayudarte.
+        Intentamos responder todas las consultas en un plazo máximo de 48 horas
+        laborables.
+      </p>
+    </div>
+  </body>
+</html>

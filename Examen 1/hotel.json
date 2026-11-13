@@ -1,0 +1,251 @@
+{
+    "datos_generales": {
+        "nombre": "Hotel Costa Valencia",
+        "estrellas": 4,
+        "activo": true,
+        "checkin": "14:00",
+        "checkout": "12:00"
+    },
+    "direccion": {
+        "calle": "Avenida del Puerto 120, Valencia",
+        "codigo_postal": "46023",
+        "coordenadas": {
+            "latitud": 39.4699,
+            "longitud": -0.3763
+        }
+    },
+    "contacto": {
+        "email": "reservas@costavalencia.example",
+        "telefono": [
+            "961112233",
+            "961112244"
+        ],
+        "web": null
+    },
+    "servicios": [
+        "wifi",
+        "desayuno",
+        "parking",
+        "spa"
+    ],
+    "habitaciones": [
+        {
+            "id": "H101",
+            "num": 101,
+            "nombre": "Habitación doble",
+            "precio_noche": 89.90,
+            "capacidad": 2,
+            "disponible": true,
+            "ubicacion": {
+                "planta": 1,
+                "vista": "Mar"
+            },
+            "valoraciones": [
+                4,
+                5,
+                5
+            ],
+            "equipamiento": [
+                "TV",
+                "aire acondicionado",
+                "minibar"
+            ]
+        },
+        {
+            "id": "H205",
+            "num": 205,
+            "nombre": "Suite \"Mar\"",
+            "precio_noche": 189.90,
+            "capacidad": 4,
+            "disponible": true,
+            "ubicacion": {
+                "planta": 2,
+                "vista": "Mar"
+            },
+            "valoraciones": [
+                5,
+                5
+            ],
+            "equipamiento": [
+                "TV",
+                "aire acondicionado",
+                "jacuzzi",
+                "terraza"
+            ]
+        },
+        {
+            "id": "H310",
+            "num": 310,
+            "nombre": "Individual económica",
+            "precio_noche": 59.50,
+            "capacidad": 1,
+            "disponible": false,
+            "ubicacion": {
+                "planta": 3,
+                "vista": "Ciudad"
+            },
+            "valoraciones": [],
+            "equipamiento": []
+        }
+    ],
+    "clientes": [
+        {
+            "id": "C001",
+            "nombre": "Laura Giménez",
+            "nacimiento": "1988-04-12",
+            "documento": {
+                "tipo": "DNI",
+                "numero": "12345678A"
+            },
+            "fidelidad": {
+                "nivel": "Oro",
+                "puntos": 1200
+            },
+            "preferencias": [
+                "planta alta",
+                "almohada extra"
+            ]
+        },
+        {
+            "id": "C002",
+            "nombre": "Marc Soler",
+            "nacimiento": "1995-09-30",
+            "documento": {
+                "tipo": "Pasaporte",
+                "numero": "XK918273"
+            },
+            "fidelidad": {
+                "nivel": null,
+                "puntos": null
+            },
+            "preferencias": []
+        },
+        {
+            "id": "C003",
+            "nombre": "Ana Petrova",
+            "nacimiento": "1979-01-22",
+            "documento": {
+                "tipo": "NIE",
+                "numero": "Y1234567X"
+            },
+            "fidelidad": {
+                "nivel": "Plata",
+                "puntos": 430
+            },
+            "preferencias": [
+                "sin gluten"
+            ]
+        }
+    ],
+    "reservas": [
+        {
+            "id": "R001",
+            "cliente_id": "C001",
+            "habitacion_id": "H101",
+            "fecha_entrada": "2026-12-10",
+            "fecha_salida": "2026-12-13",
+            "estado": "confirmada",
+            "pagado": true,
+            "extras": [
+                {
+                    "servicio": "Desayuno",
+                    "precio_unidad": 12.50,
+                    "cantidad": 3
+                },
+                {
+                    "servicio": "Parking",
+                    "precio_unidad": 15.00,
+                    "cantidad": 3
+                }
+            ],
+            "pago": {
+                "metodo": "Tarjeta",
+                "total": 387.42,
+                "desglose": {
+                    "habitacion": 269.70,
+                    "extras": 82.50,
+                    "impuestos": 35.22
+                }
+            },
+            "nota": "Llegada tardía"
+        },
+        {
+            "id": "R002",
+            "cliente_id": "C002",
+            "habitacion_id": "H205",
+            "fecha_entrada": "2026-12-20",
+            "fecha_salida": "2026-12-22",
+            "estado": "pendiente",
+            "pagado": false,
+            "extras": [
+                {
+                    "servicio": null,
+                    "precio_unidad": null,
+                    "cantidad": null
+                }
+            ],
+            "pago": {
+                "metodo": null,
+                "total": null,
+                "desglose": {
+                    "habitacion": null,
+                    "extras": null,
+                    "impuestos": null
+                }
+            },
+            "nota": null
+        },
+        {
+            "id": "R003",
+            "cliente_id": "C003",
+            "habitacion_id": "H101",
+            "fecha_entrada": "2027-01-05",
+            "fecha_salida": "2027-01-08",
+            "estado": "confirmada",
+            "pagado": true,
+            "extras": [
+                {
+                    "servicio": "Spa",
+                    "precio_unidad": 40.00,
+                    "cantidad": 1
+                }
+            ],
+            "pago": {
+                "metodo": "Transferencia",
+                "total": 340.67,
+                "desglose": {
+                    "habitacion": 269.70,
+                    "extras": 40.00,
+                    "impuestos": 30.97
+                }
+            },
+            "nota": "Sin gluten en el desayuno"
+        },
+        {
+            "id": "R004",
+            "cliente_id": "C001",
+            "habitacion_id": "H205",
+            "fecha_entrada": "2027-02-14",
+            "fecha_salida": "2027-02-16",
+            "estado": "cancelada",
+            "pagado": false,
+            "extras": [
+                {
+                    "servicio": null,
+                    "precio_unidad": null,
+                    "cantidad": null
+                }
+            ],
+            "pago": {
+                "metodo": null,
+                "total": null,
+                "desglose": {
+                    "habitacion": null,
+                    "extras": null,
+                    "impuestos": null
+                }
+            },
+            "nota": "cancelada por la clienta"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+TAREA 1
+1. nombre: 'Hotel Costa Valencia', esta propiedad debe llevar doble comilla;
+2. "estrellas": "4", el numero 4 al llevar comillas se considera como texto;
+3. "activo": True, el valor True al ir con mayuscula es invalido;
+4. "servicios": ["wifi", "parking",], parking es seguido por una coma es invalido;
+5. "web": "null", el valor null no lleva doble comillas ya que lo esta consederando como texto y no como ausencia de valor;
+
+TAREA 2
+1.Estrellas: dato tipo numero ; es un valor que se puede utilizar, comparar y ordenar;
+2.CodigoPostal: dato tipo texto ; es un valor el cual no voy a operar;
+3.Web: dato tipo null ; representa la ausencia de valor.

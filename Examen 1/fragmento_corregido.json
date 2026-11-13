@@ -1,0 +1,10 @@
+{
+    "nombre": "Hotel Costa Valencia",
+    "estrellas": 4,
+    "activo": true,
+    "servicios": [
+        "wifi",
+        "parking"
+    ],
+    "web": null
+}
